@@ -109,7 +109,8 @@
   - 최종 Test Accuracy: **90.91%**
 
 Confusion Matrix  
-  ![Confusion Matrix](confusion.PNG)
+<img width="736" height="248" alt="image" src="https://github.com/user-attachments/assets/053df9ca-da1c-494e-9930-6d49df0a9aaa" />
+
 
 ---
 
