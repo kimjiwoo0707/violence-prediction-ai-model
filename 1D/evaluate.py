@@ -10,7 +10,7 @@ from sklearn.metrics import f1_score, roc_auc_score, classification_report
 from model_1d import resnet18_1d
 from model_2d import resnet18_2d
 from preprocess_2d import ImageDataset2D, build_image_transform
-from preprocess_1d import AudioDataset1D  # <- 권장: train_1d.py 말고 preprocess_1d.py로 옮기기
+from preprocess_1d import AudioDataset1D
 
 
 @torch.no_grad()
@@ -53,7 +53,7 @@ def main():
     p.add_argument("--weights", type=str, required=True)
     p.add_argument("--batch_size", type=int, default=32)
     p.add_argument("--n_class", type=int, default=2)
-    p.add_argument("--num_workers", type=int, default=0)  # <- 기본 0 권장
+    p.add_argument("--num_workers", type=int, default=0)
     args = p.parse_args()
 
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
