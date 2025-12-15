@@ -60,7 +60,7 @@
 
 1D 오디오 데이터와 2D 스펙트로그램 기반 데이터를 사용한 Residual Learning 기반 CNN 모델의 성능을 비교하기 위해, 두 모델의 파라미터 수를 약 400만 개로 동일하게 설정하고 학습을 진행했다. 이렇게 동일한 조건을 적용해 데이터 형태에 따른 모델 성능 차이를 공정하게 평가했다.
 
-### 1D 모델 구조 [[코드](./1D_model.py)](https://github.com/kimjiwoo0707/violence-prediction-ai-model/blob/e36036af52d6b65522776b7d4bdcd6dfe1cbb483/1D/model_1d.py)
+### 1D 모델 구조 1D/model_1d.py
 - 입력: 1채널 오디오 신호  
 - Conv1d → 64 출력 채널  
 - BatchNorm1d + MaxPool1d → 정규화 및 다운샘플링  
