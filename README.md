@@ -68,7 +68,7 @@
 - Residual Block: 2개의 Conv1d + BatchNorm1d, 총 37개 레이어  
 - 입력과 출력 합산 방식으로 잔차 학습 진행
 
-### 2D 모델 구조 [코드](./2D_model.py)
+### 2D 모델 구조 [코드](https://github.com/kimjiwoo0707/violence-prediction-ai-model/blob/62bf8dea9c4ce29a02b116afd210fa2bd156ecfe/2D/model_2d.py))
 - 입력: 1D 오디오 데이터를 STFT(Short Time Fourier Transform)로 2D 이미지 형태 변환  
 - Conv2d 레이어로 1D 모델과 동일하게 잔차 블록 구성  
 - 파라미터 수 맞추기 위해 입력 이미지를 38개 출력 채널로 변환  
