@@ -82,7 +82,7 @@ def validate(model, loader, criterion, device):
 
 def main():
     p = argparse.ArgumentParser()
-    p.add_argument("--data_root", type=str, required=True, help="/path/to/dataset1")  여기다 여기
+    p.add_argument("--data_root", type=str, required=True, help="/content/Dataset/2D")
     p.add_argument("--epochs", type=int, default=50)
     p.add_argument("--batch_size", type=int, default=32)
     p.add_argument("--lr", type=float, default=0.005)
