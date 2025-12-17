@@ -7,10 +7,6 @@
 본 연구는 음성 데이터를 활용하여 일상생활 속 폭력적 소리와 비폭력적 소리를 실시간으로 구분하는 모델을 제안하며,
 1D·2D 모델 비교와 최적화를 통해 다양한 환경에서 높은 성능과 안정성을 달성하고자 한다.
 
-## Tech Stack
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white) ![Librosa](https://img.shields.io/badge/Librosa-000000?style=for-the-badge&logo=python&logoColor=white) ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=matplotlib&logoColor=white) ![Scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-
 ---
 
 ## 📰 데이터 구성
@@ -127,3 +123,37 @@ Confusion Matrix
 - 실시간 적용성 검증 부족 : 학습 및 테스트 중심으로 진행되어 실시간 환경에서의 처리 속도와 안정성 검증이 필요하다.
 
 - 모델 확장 가능성 : ResNet 기반 CNN 이외에도 Transformer 기반 오디오 모델 등이 성능 향상을 기대할 수 있다.
+
+
+---
+
+## Skills
+
+<div align="left">
+
+<!-- Python -->
+<img src="https://img.shields.io/badge/Python-FDE68A?style=for-the-badge&logo=python&logoColor=white"/>
+
+<!-- PyTorch -->
+<img src="https://img.shields.io/badge/PyTorch-FECACA?style=for-the-badge&logo=pytorch&logoColor=white"/>
+
+<!-- NumPy -->
+<img src="https://img.shields.io/badge/NumPy-A7F3D0?style=for-the-badge&logo=numpy&logoColor=white"/>
+
+<!-- scikit-learn -->
+<img src="https://img.shields.io/badge/scikit--learn-BFDBFE?style=for-the-badge&logo=scikit-learn&logoColor=white"/>
+
+<!-- Audio Processing -->
+<img src="https://img.shields.io/badge/Audio_Processing-FBCFE8?style=for-the-badge&logo=audacity&logoColor=white"/>
+
+<!-- Mel Spectrogram -->
+<img src="https://img.shields.io/badge/Mel_Spectrogram-E9D5FF?style=for-the-badge&logo=musicbrainz&logoColor=white"/>
+
+<!-- 1D & 2D CNN -->
+<img src="https://img.shields.io/badge/1D_&_2D_CNN-C7D2FE?style=for-the-badge&logo=keras&logoColor=white"/>
+
+<!-- Model Optimization -->
+<img src="https://img.shields.io/badge/Model_Optimization-BAE6FD?style=for-the-badge&logo=fastapi&logoColor=white"/>
+
+</div>
+
